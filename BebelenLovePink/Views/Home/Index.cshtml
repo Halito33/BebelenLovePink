@@ -1,32 +1,75 @@
 ﻿@{
     ViewData["Title"] = "Bebelen Love Pink";
 }
+@section Styles {
+    <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
+}
+<script src="https://kit.fontawesome.com/57faba85b1.js" crossorigin="anonymous"></script>
 
-<div class="align-self-center">
-    <table border="1" class="align-text-center">
-        <tr>
-            <td>
-                <div class="text-center">esto es un texto</div>
-            </td>
-            <td>
-                <div class="text-center">esto es un texto2</div>
-            </td>
-            <td>
-                <div class="text-center">esto es un texto3</div>
-            </td>
-        </tr>
+<body class="container">
+        <nav>
+            <a asp-controller="Admin" asp-action="Login">Login</a>
+            <div>
+                <i class="fa-solid fa-cart-shopping">
+                    <div class="buy-card">
+                        <ul class="nav-card">
+                            <li>Imagen</li>
+                            <li>Nombre</li>
+                            <li>Precio</li>
+                            <li>Cantidad</li>
+                        </ul>
+                        <button>Vaciar carrito</button>
+                    </div>
+                </i>
 
-        <tr>
-            <td>
-                <div class="text-center">esto es un texto4</div>
-            </td>
-            <td>
-                <div class="text-center">esto es un texto5</div>
-            </td>
-            <td>
-                <div class="text-center">esto es un texto6</div>
-            </td>
-        </tr>
-</table>
-</div>
+            </div>
+        </nav>
 
+        <h1>Bebelen Love Pink</h1>
+        <div class="grid">
+            <div class="items">
+                <a asp-action="Details"><img src="photos/cremas.jpg" alt="Alternate Text" /></a>
+                <div class="info">
+                    <h3>Nombre Producto</h3>
+                    <p>Marca producto</p>
+                    <div class="precio">
+                        <p>$10000</p>
+                    </div>
+                    <button>Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="photos/cremas.jpg" alt="Alternate Text" />
+                <div class="info">
+                    <h3>Nombre Producto</h3>
+                    <p>Marca producto</p>
+                    <div class="precio">
+                        <p>$10000</p>
+                    </div>
+                    <button>Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="photos/cremas.jpg" alt="Alternate Text" />
+                <div class="info">
+                    <h3>Nombre Producto</h3>
+                    <p>Marca producto</p>
+                    <div class="precio">
+                        <p>$10000</p>
+                    </div>
+                    <button>Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="photos/cremas.jpg" alt="Alternate Text" />
+                <div class="info">
+                    <h3>Nombre Producto</h3>
+                    <p>Marca producto</p>
+                    <div class="precio">
+                        <p>$10000</p>
+                    </div>
+                    <button>Agregar al Carrito</button>
+                </div>
+            </div>
+        </div>
+</body>

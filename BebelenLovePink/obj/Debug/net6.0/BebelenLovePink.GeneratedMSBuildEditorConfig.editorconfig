@@ -18,28 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\maste\OneDrive\Escritorio\Proyecto de titulo\BebelenLovePink\BebelenLovePink
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Admin/Estadistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXN0YWRpc3RpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Admin/Inventory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW52ZW50b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Admin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Admin/Options/Estadisticas/Estadistics.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3B0aW9uc1xFc3RhZGlzdGljYXNcRXN0YWRpc3RpY3MuY3NodG1s
+[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Admin/Options.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3B0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Admin/Options/Inventario/Inventory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3B0aW9uc1xJbnZlbnRhcmlvXEludmVudG9yeS5jc2h0bWw=
+[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Home/CarroDeCompra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJyb0RlQ29tcHJhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Admin/Options/Options.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3B0aW9uc1xPcHRpb25zLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Home/Carrito/CarroDeCompra.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJyaXRvXENhcnJvRGVDb21wcmEuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Home/DetalleProduct/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGxlUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Home/Index.cshtml]

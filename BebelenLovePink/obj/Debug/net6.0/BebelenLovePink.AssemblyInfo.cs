@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BebelenLovePink")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51debe808c6fcb519363f7c6512afe6654f0b909")]
 [assembly: System.Reflection.AssemblyProductAttribute("BebelenLovePink")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BebelenLovePink")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

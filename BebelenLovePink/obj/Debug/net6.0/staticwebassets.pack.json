@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BebelenLovePink.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
       "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
@@ -247,6 +251,10 @@
     {
       "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\photos\\cremas.jpg",
+      "PackagePath": "staticwebassets\\photos\\cremas.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BebelenLovePink.Microsoft.AspNetCore.StaticWebAssets.props",

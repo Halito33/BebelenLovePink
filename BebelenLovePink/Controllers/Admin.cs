@@ -10,6 +10,17 @@ namespace BebelenLovePink.Controllers
         {
             return View();
         }
-
+		public ActionResult Options()
+		{
+			return View();
+		}
+        public ActionResult Inventory()
+        {
+            return View();
+        }
+        public ActionResult Estadistics()
+        {
+            return View();
+        }
     }
 }

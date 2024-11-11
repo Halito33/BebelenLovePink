@@ -18,6 +18,11 @@ namespace BebelenLovePink.Controllers
             return View();
         }
 
+        public IActionResult Details()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
