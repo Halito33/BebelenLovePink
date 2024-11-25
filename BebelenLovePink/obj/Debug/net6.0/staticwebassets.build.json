@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "miKXD9c3+4iNDazJV2RFu/hqB+J37Cgo3jsp4DygJZE=",
+  "Hash": "PS6Jg0wJG+/Xauhq+x3kU3Byp9cmTzPsB/nN1Zp/JXk=",
   "Source": "BebelenLovePink",
   "BasePath": "_content/BebelenLovePink",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\carrito.js",
+      "SourceId": "BebelenLovePink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\",
+      "BasePath": "_content/BebelenLovePink",
+      "RelativePath": "js/carrito.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\carrito.js"
     },
     {
       "Identity": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\site.js",

@@ -1,5 +1,51 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Bebelen Love Pink";
 }
+@section Styles {
+    <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
+}
+<script src="https://kit.fontawesome.com/57faba85b1.js" crossorigin="anonymous"></script>
+
+<body class="container">
+    <nav>
+        <a asp-controller="Admin" asp-action="Login">Login</a>
+        <div>
+            <i class="fa-solid fa-cart-shopping">
+                <div class="buy-card">
+                    <ul class="nav-card">
+                        <li>Imagen</li>
+                        <li>Nombre</li>
+                        <li>Precio</li>
+                        <li>Cantidad</li>
+                        <li></li>
+                    </ul>
+                    <div class="lista">
+                        <img src="~/photos/cremas.jpg" />
+                        <p>Nombre Producto</p>
+                        <p>$10000</p>
+                        <p>Cantidad</p>
+                        <p><span>X</span></p>
+                    </div>
+                    <button>Vaciar carrito</button>
+                </div>
+            </i>
+
+        </div>
+    </nav>
+
+    <h1>Bebelen Love Pink</h1>
+    <div class="grid">
+        <div class="items">
+            <img src="~/photos/cremas.jpg" alt="Alternate Text" />
+            <div class="info">
+                <h3>Nombre Producto</h3>
+                <p>Marca producto</p>
+                <div class="precio">
+                    <p>$10000</p>
+                </div>
+                <button>Agregar al Carrito</button>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/carrito.js"></script>
+</body>

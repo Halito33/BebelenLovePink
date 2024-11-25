@@ -5,9 +5,9 @@
     <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
 }
 <script src="https://kit.fontawesome.com/57faba85b1.js" crossorigin="anonymous"></script>
-
+<html>
 <body class="container">
-        <nav>
+        <nav id="carrito">
             <a asp-controller="Admin" asp-action="Login">Login</a>
             <div>
                 <i class="fa-solid fa-cart-shopping">
@@ -18,7 +18,10 @@
                             <li>Precio</li>
                             <li>Cantidad</li>
                         </ul>
-                        <button>Vaciar carrito</button>
+                        <div class="lista">
+
+                        </div>
+                        <button id="vaciarCarrito">Vaciar carrito</button>
                     </div>
                 </i>
 
@@ -26,16 +29,16 @@
         </nav>
 
         <h1>Bebelen Love Pink</h1>
-        <div class="grid">
+        <div class="grid" id="listaProducto">
             <div class="items">
-                <a asp-action="Details"><img src="photos/cremas.jpg" alt="Alternate Text" /></a>
+                <img src="photos/cremas.jpg" />
                 <div class="info">
-                    <h3>Nombre Producto</h3>
-                    <p>Marca producto</p>
+                    <h3>Crema Facial</h3>
+                    <p>Avon</p>
                     <div class="precio">
                         <p>$10000</p>
                     </div>
-                    <button>Agregar al Carrito</button>
+                    <button class="agregarProducto" data-id="1">Agregar al Carrito</button>
                 </div>
             </div>
             <div class="items">
@@ -72,4 +75,6 @@
                 </div>
             </div>
         </div>
+<script src="~/js/carrito.js"></script>
 </body>
+</html>

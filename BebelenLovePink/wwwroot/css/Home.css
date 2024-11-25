@@ -43,6 +43,7 @@
     margin-bottom: 5px;
 }
 
+
 .nav-card li {
     font-size: small;
     list-style: none;
@@ -105,11 +106,10 @@ h1 {
     border: solid thin #e1e1e1;
 }
 
-    .items img {
+.items img {
         width: 100%;
         height: 170px;
-        
-    }
+}
 
 .info {
     padding: 15px;
@@ -158,3 +158,35 @@ h1 {
         transition: all .3s;
     }
 
+/*acomodar los elementos de nuestro carrito de compras*/
+
+.lista div {
+    display: none;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-top: solid thin gray;
+}
+
+.container nav i:hover .buy-card > .lista div {
+    display: flex;
+}
+
+.lista img {
+    width: 100px;
+}
+
+.lista p {
+    width: 300px;
+    font-size: 1.3rem;
+}
+
+.lista p:nth-child(4) {
+    padding-left: 40px;
+}
+
+.lista p:last-child span {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+    color: #ffff;
+}
