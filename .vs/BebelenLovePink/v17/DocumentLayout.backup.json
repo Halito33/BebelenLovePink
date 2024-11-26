@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|c:\\users\\maste\\onedrive\\escritorio\\proyecto de titulo\\bebelenlovepink\\bebelenlovepink\\wwwroot\\js\\carrito.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|solutionrelative:bebelenlovepink\\wwwroot\\js\\carrito.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|c:\\users\\maste\\onedrive\\escritorio\\proyecto de titulo\\bebelenlovepink\\bebelenlovepink\\views\\admin\\inventory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|solutionrelative:bebelenlovepink\\views\\admin\\inventory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|c:\\users\\maste\\onedrive\\escritorio\\proyecto de titulo\\bebelenlovepink\\bebelenlovepink\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|solutionrelative:bebelenlovepink\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|c:\\users\\maste\\onedrive\\escritorio\\proyecto de titulo\\bebelenlovepink\\bebelenlovepink\\models\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|solutionrelative:bebelenlovepink\\models\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|c:\\users\\maste\\onedrive\\escritorio\\proyecto de titulo\\bebelenlovepink\\bebelenlovepink\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|solutionrelative:bebelenlovepink\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|c:\\users\\maste\\onedrive\\escritorio\\proyecto de titulo\\bebelenlovepink\\bebelenlovepink\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -17,6 +21,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|c:\\users\\maste\\onedrive\\escritorio\\proyecto de titulo\\bebelenlovepink\\bebelenlovepink\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|solutionrelative:bebelenlovepink\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|c:\\users\\maste\\onedrive\\escritorio\\proyecto de titulo\\bebelenlovepink\\bebelenlovepink\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|solutionrelative:bebelenlovepink\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|c:\\users\\maste\\onedrive\\escritorio\\proyecto de titulo\\bebelenlovepink\\bebelenlovepink\\wwwroot\\js\\carrito.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{842E9A37-5103-4EC4-AFC6-78B720CEAB6E}|BebelenLovePink\\BebelenLovePink.csproj|solutionrelative:bebelenlovepink\\wwwroot\\js\\carrito.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Inventory.cshtml",
+              "DocumentMoniker": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\Views\\Admin\\Inventory.cshtml",
+              "RelativeDocumentMoniker": "BebelenLovePink\\Views\\Admin\\Inventory.cshtml",
+              "ToolTip": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\Views\\Admin\\Inventory.cshtml",
+              "RelativeToolTip": "BebelenLovePink\\Views\\Admin\\Inventory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T00:03:26.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inventario.cs",
+              "DocumentMoniker": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\Models\\Inventario.cs",
+              "RelativeDocumentMoniker": "BebelenLovePink\\Models\\Inventario.cs",
+              "ToolTip": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\Models\\Inventario.cs",
+              "RelativeToolTip": "BebelenLovePink\\Models\\Inventario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T00:00:49.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.css",
+              "DocumentMoniker": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\Details.css",
+              "RelativeDocumentMoniker": "BebelenLovePink\\wwwroot\\css\\Details.css",
+              "ToolTip": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\Details.css",
+              "RelativeToolTip": "BebelenLovePink\\wwwroot\\css\\Details.css",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAAJ4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-25T23:03:51.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "BebelenLovePink\\Views\\Home\\Details.cshtml",
               "ToolTip": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\Views\\Home\\Details.cshtml",
               "RelativeToolTip": "BebelenLovePink\\Views\\Home\\Details.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-25T16:53:47.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "carrito.js",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\carrito.js",
               "RelativeDocumentMoniker": "BebelenLovePink\\wwwroot\\js\\carrito.js",
               "ToolTip": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\carrito.js",
               "RelativeToolTip": "BebelenLovePink\\wwwroot\\js\\carrito.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAG4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-25T15:45:31.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "BebelenLovePink\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "BebelenLovePink\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAE8AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-06T15:09:51.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Home.css",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\Home.css",
               "RelativeDocumentMoniker": "BebelenLovePink\\wwwroot\\css\\Home.css",
               "ToolTip": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\Home.css",
               "RelativeToolTip": "BebelenLovePink\\wwwroot\\css\\Home.css",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAswL8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-10T23:56:36.199Z",
               "EditorCaption": ""
