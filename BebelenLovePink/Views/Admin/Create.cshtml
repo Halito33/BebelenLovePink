@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Inventario
+
+<h2>Agregar Producto</h2>
+
+<form asp-action="Create">
+    <div>
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre" class="form-control" autocomplete="off" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Marca"></label>
+        <input asp-for="Marca" class="form-control" autocomplete="off" />
+        <span asp-validation-for="Marca" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Precio"></label>
+        <input asp-for="Precio" class="form-control" autocomplete="off" />
+        <span asp-validation-for="Precio" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Cantidad"></label>
+        <input asp-for="Cantidad" class="form-control" autocomplete="off" />
+        <span asp-validation-for="Cantidad" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Descripcion"></label>
+        <input asp-for="Descripcion" class="form-control" autocomplete="off" />
+        <span asp-validation-for="Descripcion" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Agregar Producto</button>
+    <a asp-action="Index">Volver al listado</a>
+</form>

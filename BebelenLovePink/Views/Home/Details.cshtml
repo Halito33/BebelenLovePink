@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
 }
 <script src="https://kit.fontawesome.com/57faba85b1.js" crossorigin="anonymous"></script>
-
+@model Inventario
 <body class="container">
     <nav>
         <a asp-controller="Admin" asp-action="Login">Login</a>
@@ -34,12 +34,12 @@
     </div>
     <div class="grid">
         <div class="items">
-            <img src="~/photos/cremas.jpg" alt="Alternate Text" />
+            <img src="~/photos/ParcheDeMomento.png" alt="Alternate Text" />
             <div class="info">
-                <h3>Nombre Producto</h3>
-                <p>Marca producto</p>
+                <h3>@Model.Nombre</h3>
+                <p>@Model.Marca</p>
                 <div class="precio">
-                    <p>$10000</p>
+                    <p>$@Model.Precio</p>
                 </div>
                 <button>Agregar al Carrito</button>
             </div>

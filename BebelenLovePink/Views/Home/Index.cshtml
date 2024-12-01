@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
 }
 <script src="https://kit.fontawesome.com/57faba85b1.js" crossorigin="anonymous"></script>
+@model List<Inventario>
 <html>
 <body class="container">
         <nav id="carrito">
@@ -29,52 +30,22 @@
         </nav>
 
         <h1>Bebelen Love Pink</h1>
+    @foreach(var productos in Model)
+    {
         <div class="grid" id="listaProducto">
             <div class="items">
-            <a asp-controller="Home" asp-action="Details"><img src="photos/cremas.jpg" /></a>
+                <a asp-action="Details" asp-route-id="@productos.Id"><img src="photos/ParcheDeMomento.png" /></a>
                 <div class="info">
-                    <h3>Crema Facial</h3>
-                    <p>Avon</p>
+                    <h3>@productos.Nombre</h3>
+                    <p>@productos.Marca</p>
                     <div class="precio">
-                        <p>$10000</p>
+                        <p>$@productos.Precio</p>
                     </div>
-                    <button class="agregarProducto" data-id="1">Agregar al Carrito</button>
-                </div>
-            </div>
-            <div class="items">
-                <img src="photos/cremas.jpg" alt="Alternate Text" />
-                <div class="info">
-                    <h3>Nombre Producto</h3>
-                    <p>Marca producto</p>
-                    <div class="precio">
-                        <p>$10000</p>
-                    </div>
-                    <button>Agregar al Carrito</button>
-                </div>
-            </div>
-            <div class="items">
-                <img src="photos/cremas.jpg" alt="Alternate Text" />
-                <div class="info">
-                    <h3>Nombre Producto</h3>
-                    <p>Marca producto</p>
-                    <div class="precio">
-                        <p>$10000</p>
-                    </div>
-                    <button>Agregar al Carrito</button>
-                </div>
-            </div>
-            <div class="items">
-                <img src="photos/cremas.jpg" alt="Alternate Text" />
-                <div class="info">
-                    <h3>Nombre Producto</h3>
-                    <p>Marca producto</p>
-                    <div class="precio">
-                        <p>$10000</p>
-                    </div>
-                    <button>Agregar al Carrito</button>
+                    <button class="agregarProducto" data-id=@productos.Id>Agregar al Carrito</button>
                 </div>
             </div>
         </div>
-<script src="~/js/carrito.js"></script>
+    }
+    <script src="~/js/carrito.js"></script>
 </body>
 </html>

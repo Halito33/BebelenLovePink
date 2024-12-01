@@ -1,5 +1,6 @@
 ﻿using BebelenLovePink.Models;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Driver;
 using System.Diagnostics;
 
 namespace BebelenLovePink.Controllers
@@ -7,21 +8,44 @@ namespace BebelenLovePink.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        public readonly IMongoCollection<Inventario> _inventario;
+        public HomeController(IMongoClient monogClient)
         {
-            _logger = logger;
+            var database = monogClient.GetDatabase("admin");
+            _inventario = database.GetCollection<Inventario>("Inventario");
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var inventario = await _inventario.Find(_ => true).ToListAsync();
+            return View(inventario);
         }
 
-        public IActionResult Details()
+        public async Task<IActionResult> Details(string id)
         {
-            return View();
+            var inventario = await _inventario.Find(p => p.Id == id).FirstOrDefaultAsync();
+            return View(inventario);
         }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Details(string id, [Bind("Id", "Nombre", "Marca", "Precio", "Cantidad")] Inventario inventario)
+        {
+            if (id != inventario.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                await _inventario.ReplaceOneAsync(p => p.Id == id, inventario);
+                return RedirectToAction($"{nameof(Index)}");
+            }
+
+            return View(inventario);
+        }
+
 
         public IActionResult Privacy()
         {

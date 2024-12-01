@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PS6Jg0wJG+/Xauhq+x3kU3Byp9cmTzPsB/nN1Zp/JXk=",
+  "Hash": "ueWwEDGW/WkbNcWtGD8EuYgNOjsOVmLWakxyfVRh6mA=",
   "Source": "BebelenLovePink",
   "BasePath": "_content/BebelenLovePink",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BebelenLovePink.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\Details.css",
+      "SourceId": "BebelenLovePink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\",
+      "BasePath": "_content/BebelenLovePink",
+      "RelativePath": "css/Details.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Details.css"
     },
     {
       "Identity": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\Home.css",
@@ -1269,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\photos\\cremas.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\photos\\ParcheDeMomento.png",
+      "SourceId": "BebelenLovePink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\",
+      "BasePath": "_content/BebelenLovePink",
+      "RelativePath": "photos/ParcheDeMomento.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\ParcheDeMomento.png"
     }
   ]
 }

@@ -1,7 +1,23 @@
+using BebelenLovePink.Data;
+using BebelenLovePink.Models;
+using Microsoft.Extensions.Options;
+using MongoDB.Driver;
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.Configure<MongoDbSettings>(builder.Configuration.GetSection("MongoDbSettings"));
+
+builder.Services.AddSingleton<IMongoClient>(sp =>
+{
+    var config = sp.GetRequiredService<IOptions<MongoDbSettings>>().Value;
+
+    return new MongoClient(config.ConnectionString);
+});
 
 var app = builder.Build();
 
