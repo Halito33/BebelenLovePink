@@ -21,6 +21,8 @@ namespace BebelenLovePink.Models
 
         [BsonElement("cantidad")]
         public int Cantidad { get; set; }
+        [BsonElement("estado")]
+        public int Estado { get; set; }
 
         [BsonElement("precio")]
         public int Precio { get; set; }

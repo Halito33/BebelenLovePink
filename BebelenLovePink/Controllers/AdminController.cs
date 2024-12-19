@@ -6,14 +6,15 @@ using MongoDB.Driver;
 
 namespace BebelenLovePink.Controllers
 {
-    public class Admin : Controller
+    public class AdminController : Controller
     {
         public readonly IMongoCollection<Inventario> _inventario;
-        public Admin(IMongoClient monogClient)
+        public AdminController(IMongoClient monogClient)
         {
             var database = monogClient.GetDatabase("admin");
             _inventario = database.GetCollection<Inventario>("Inventario");
         }
+
 
         public async Task<IActionResult> Index()
         {
@@ -28,7 +29,7 @@ namespace BebelenLovePink.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id", "Nombre", "Marca", "Precio", "Cantidad")] Inventario inventario)
+        public async Task<IActionResult> Create([Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado")] Inventario inventario)
         {
             inventario.Id = ObjectId.GenerateNewId().ToString();
             try
@@ -64,7 +65,7 @@ namespace BebelenLovePink.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id", "Nombre", "Marca", "Precio","Cantidad")] Inventario inventario)
+        public async Task<IActionResult> Edit(string id, [Bind("Id", "Nombre", "Marca", "Precio","Cantidad", "Estado")] Inventario inventario)
         {
             if (id != inventario.Id)
             {
@@ -99,7 +100,7 @@ namespace BebelenLovePink.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(string id, [Bind("Id", "Nombre", "Marca", "Precio", "Cantidad")] Inventario inventario)
+        public async Task<IActionResult> Delete(string id, [Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado")] Inventario inventario)
         {
             await _inventario.DeleteOneAsync(p => p.Id == id);
             return RedirectToAction(nameof(Index));

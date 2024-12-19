@@ -5,12 +5,44 @@
       "PackagePath": "staticwebassets\\BebelenLovePink.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\assets\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\assets\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\assets\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\assets\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\assets\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\assets\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\assets\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\assets\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\AdminPageStyles.css",
+      "PackagePath": "staticwebassets\\css\\AdminPageStyles.css"
+    },
+    {
       "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\Details.css",
       "PackagePath": "staticwebassets\\css\\Details.css"
     },
     {
       "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\Home.css",
       "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\HomePageStyles.css",
+      "PackagePath": "staticwebassets\\css\\HomePageStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\ItemDetailsStyles.css",
+      "PackagePath": "staticwebassets\\css\\ItemDetailsStyles.css"
     },
     {
       "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\css\\Login.css",
@@ -25,8 +57,24 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\AdminPageScripts\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\js\\AdminPageScripts\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\AdminPageScripts\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\AdminPageScripts\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\ItemDescriptionScripts.js",
+      "PackagePath": "staticwebassets\\js\\ItemDescriptionScripts.js"
+    },
+    {
       "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\carrito.js",
       "PackagePath": "staticwebassets\\js\\carrito.js"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\homePageScripts.js",
+      "PackagePath": "staticwebassets\\js\\homePageScripts.js"
     },
     {
       "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\site.js",
@@ -259,6 +307,10 @@
     {
       "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\photos\\Banner-generico.png",
+      "PackagePath": "staticwebassets\\photos\\Banner-generico.png"
     },
     {
       "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\photos\\ParcheDeMomento.png",

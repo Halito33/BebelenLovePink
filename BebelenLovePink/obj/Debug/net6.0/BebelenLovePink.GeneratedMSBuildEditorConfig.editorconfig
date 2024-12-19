@@ -30,20 +30,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Admin/Estadistics.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXN0YWRpc3RpY3MuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Admin/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Admin/Options.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3B0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Home/CarroDeCompra.cshtml]
@@ -60,6 +48,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Home/Productos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/maste/OneDrive/Escritorio/Proyecto de titulo/BebelenLovePink/BebelenLovePink/Views/Shared/Error.cshtml]

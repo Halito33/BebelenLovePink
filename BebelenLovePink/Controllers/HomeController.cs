@@ -20,6 +20,7 @@ namespace BebelenLovePink.Controllers
             var inventario = await _inventario.Find(_ => true).ToListAsync();
             return View(inventario);
         }
+       
 
         public async Task<IActionResult> Details(string id)
         {
@@ -43,6 +44,18 @@ namespace BebelenLovePink.Controllers
                 return RedirectToAction($"{nameof(Index)}");
             }
 
+            return View(inventario);
+        }
+
+        public async Task<IActionResult> CarroDeCompra()
+        {
+            var inventario = await _inventario.Find(_ => true).ToListAsync();
+            return View(inventario);
+        }
+
+        public async Task<IActionResult> Productos()
+        {
+            var inventario = await _inventario.Find(_ => true).ToListAsync();
             return View(inventario);
         }
 
