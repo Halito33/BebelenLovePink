@@ -28,25 +28,6 @@ namespace BebelenLovePink.Controllers
             return View(inventario);
         }
 
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Details(string id, [Bind("Id", "Nombre", "Marca", "Precio", "Cantidad")] Inventario inventario)
-        {
-            if (id != inventario.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                await _inventario.ReplaceOneAsync(p => p.Id == id, inventario);
-                return RedirectToAction($"{nameof(Index)}");
-            }
-
-            return View(inventario);
-        }
-
         public async Task<IActionResult> CarroDeCompra()
         {
             var inventario = await _inventario.Find(_ => true).ToListAsync();

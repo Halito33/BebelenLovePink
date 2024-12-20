@@ -1,11 +1,18 @@
-﻿namespace BebelenLovePink.Models
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+
+namespace BebelenLovePink.Models
 {
 
-    public class Admin
+    public partial class Admin
     {
-        public int id { get; set; }
-        public string user { get; set; }
-        public string password { get; set; }
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; } = null!;
+        [BsonElement("usuario")]
+        public string User { get; set; } = null!;
+        [BsonElement("password")]
+        public string Password { get; set; } = null!;
 
     }
 }

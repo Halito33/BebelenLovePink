@@ -2,6 +2,8 @@
     ViewData["Title"] = "Bebelen Love Pink";
 }
 @section Styles {<link rel="stylesheet" href="~/css/Login.css" asp-append-version="true"/> }
+
+@model Admin
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,12 +28,12 @@
                                 <div class="card-body">
                                     <form>
                                         <div class="form-floating mb-3">
-                                            <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
-                                            <label for="inputEmail">Usuario</label>
+                                            <input class="form-control" id="inputEmail" asp-for="User" placeholder="EjemploUsuario" />
+                                            <label asp-for="User">Usuario</label>
                                         </div>
                                         <div class="form-floating mb-3">
-                                            <input class="form-control" id="inputPassword" type="password" placeholder="Password" />
-                                            <label for="inputPassword">Contraseña</label>
+                                            <input class="form-control" id="inputPassword" type="password" asp-for="Password" placeholder="Password" />
+                                            <label asp-for="Password">Contraseña</label>
                                         </div>
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" id="inputRememberPassword" type="checkbox" value="" />

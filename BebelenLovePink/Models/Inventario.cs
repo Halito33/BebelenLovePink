@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace BebelenLovePink.Models
 {
-    public partial class Inventario
+    public class Inventario
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
@@ -11,20 +11,24 @@ namespace BebelenLovePink.Models
 
         [BsonElement("nombre")]
         public string Nombre { get; set; } = null!;
+
         [BsonElement("marca")]
         public string Marca { get; set; } = null!;
 
         [BsonElement("descripcion")]
         public string Descripcion { get; set; }
 
-        public string photo { get; set; }
+
+        [BsonElement("photo")]
+        public string PhotoUrl { get; set; }
 
         [BsonElement("cantidad")]
-        public int Cantidad { get; set; }
+        public int Cantidad { get; set; } = 0!;
+
         [BsonElement("estado")]
-        public int Estado { get; set; }
+        public string Estado { get; set; }
 
         [BsonElement("precio")]
-        public int Precio { get; set; }
+        public int Precio { get; set; } = 0!;
     }
 }

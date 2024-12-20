@@ -1,5 +1,6 @@
-﻿using BebelenLovePink.Models;
-using Microsoft.AspNetCore.Http;
+﻿using System.IO;
+using BebelenLovePink.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -9,13 +10,23 @@ namespace BebelenLovePink.Controllers
     public class AdminController : Controller
     {
         public readonly IMongoCollection<Inventario> _inventario;
-        public AdminController(IMongoClient monogClient)
+        private readonly IMongoCollection<Admin> _user;
+        private readonly string _rutaDestino = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "photos");
+
+
+        public AdminController(IMongoClient mongoClient)
         {
-            var database = monogClient.GetDatabase("admin");
+            var database = mongoClient.GetDatabase("admin");
             _inventario = database.GetCollection<Inventario>("Inventario");
+            _user = database.GetCollection<Admin>("AdminLogin");
+
+            if (!Directory.Exists(_rutaDestino))
+            {
+                Directory.CreateDirectory(_rutaDestino);
+            }
         }
 
-
+        //[Authorize]
         public async Task<IActionResult> Index()
         {
             var inventario = await _inventario.Find(_ => true).ToListAsync();
@@ -29,12 +40,26 @@ namespace BebelenLovePink.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado")] Inventario inventario)
+        public async Task<IActionResult> Create([Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado", "Descripcion", "Photo")] Inventario inventario )
         {
             inventario.Id = ObjectId.GenerateNewId().ToString();
             try
             {
-                await _inventario.InsertOneAsync(inventario);
+                if (Request.Form.Files.Count > 0)
+                {
+                    var photo = Request.Form.Files[0];
+                    var nombreArchivo = Path.GetFileName(photo.FileName);
+                    var rutaArchivo = Path.Combine(_rutaDestino, nombreArchivo);
+
+                    using (var stream = new FileStream(rutaArchivo, FileMode.Create))
+                    {
+                        await photo.CopyToAsync(stream);
+                    }
+
+                    inventario.PhotoUrl = Path.Combine("photos", nombreArchivo);
+                    await _inventario.InsertOneAsync(inventario);
+                }
+
                 return RedirectToAction(nameof(Index));
             }
             catch (System.Exception ex)
@@ -59,26 +84,29 @@ namespace BebelenLovePink.Controllers
             {
                 return NotFound();
             }
-
             return View(inventario);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id", "Nombre", "Marca", "Precio","Cantidad", "Estado")] Inventario inventario)
+        public async Task<IActionResult> Edit(string id, [Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado", "Descripcion")] Inventario inventario)
         {
+            
             if (id != inventario.Id)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            if (id == inventario.Id)
             {
                 await _inventario.ReplaceOneAsync(p => p.Id == id, inventario);
-                return RedirectToAction($"{nameof(Index)}");
+                return RedirectToAction(nameof(Index));
             }
+            else
+            {
 
             return View(inventario);
+            }
         }
 
         public async Task<IActionResult> Delete(string id)
@@ -100,7 +128,7 @@ namespace BebelenLovePink.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(string id, [Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado")] Inventario inventario)
+        public async Task<IActionResult> Delete(string id, [Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado", "Descripcion")] Inventario inventario)
         {
             await _inventario.DeleteOneAsync(p => p.Id == id);
             return RedirectToAction(nameof(Index));

@@ -7,19 +7,19 @@ var ctx = document.getElementById("myBarChart");
 var myLineChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["January", "February", "March", "April", "May", "June"],
+    labels: ["Diciembre", "Enero", "Febrero", "Marzo", "Abril", "Mayo"],
     datasets: [{
-      label: "Revenue",
+      label: "Dinero Recaudado",
       backgroundColor: "rgba(2,117,216,1)",
       borderColor: "rgba(2,117,216,1)",
-      data: [4215, 5312, 6251, 7841, 9821, 14984],
+      data: [10000, 35000, 125000, 40000, 20000, 36000],
     }],
   },
   options: {
     scales: {
       xAxes: [{
         time: {
-          unit: 'month'
+          unit: 'Mes'
         },
         gridLines: {
           display: false

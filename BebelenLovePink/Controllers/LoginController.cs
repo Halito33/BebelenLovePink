@@ -8,5 +8,11 @@ namespace BebelenLovePink.Controllers
         {
             return View();
         }
+
+        public async Task<IActionResult> ValidarUsuario()
+        {
+            var confirmado = "confirmado";
+            return View(confirmado);
+        }
     }
 }
