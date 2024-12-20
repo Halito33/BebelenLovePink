@@ -30,7 +30,6 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="Index">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Sobre Nosotros</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" asp-controller="Home" asp-action="Productos">Tienda</a>
                     </li>
@@ -63,13 +62,24 @@
                                 <!-- Product name-->
                                 <h5 class="fw-bolder">@productos.Nombre</h5>
                                 <!-- Product price-->
-                                @productos.Precio
+                                @if(productos.Estado == "Oferta")
+                                {
+                                    <span class="text-muted text-decoration-line-through">$@productos.Precio</span>
+                                        <span class="text-muted">$@productos.PrecioOferta</span>
+                                }
+                                else
+                                {
+                                        <span class="text-muted">$@productos.Precio</span>
+                                }
                             </div>
                         </div>
                         <!-- Product actions-->
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" asp-controller="Home" asp-action="Details">Detalles producto</a></div>
                         </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto">Agregar al Carrito</a></div>
+                            </div>
                     </div>
                 </div>   
                 }

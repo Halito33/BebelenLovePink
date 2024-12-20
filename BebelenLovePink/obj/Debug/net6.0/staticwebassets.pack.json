@@ -65,8 +65,16 @@
       "PackagePath": "staticwebassets\\js\\AdminPageScripts\\scripts.js"
     },
     {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\Carrito2.js",
+      "PackagePath": "staticwebassets\\js\\Carrito2.js"
+    },
+    {
       "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\ItemDescriptionScripts.js",
       "PackagePath": "staticwebassets\\js\\ItemDescriptionScripts.js"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\RecuperarCarrito.js",
+      "PackagePath": "staticwebassets\\js\\RecuperarCarrito.js"
     },
     {
       "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\js\\carrito.js",
@@ -307,6 +315,22 @@
     {
       "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\photos\\Banner-generico.png",
+      "PackagePath": "staticwebassets\\photos\\Banner-generico.png"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\photos\\alexander.png",
+      "PackagePath": "staticwebassets\\photos\\alexander.png"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\photos\\blub.png",
+      "PackagePath": "staticwebassets\\photos\\blub.png"
+    },
+    {
+      "Id": "C:\\Users\\maste\\OneDrive\\Escritorio\\Proyecto de titulo\\BebelenLovePink\\BebelenLovePink\\wwwroot\\photos\\doItForFauna.png",
+      "PackagePath": "staticwebassets\\photos\\doItForFauna.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BebelenLovePink.Microsoft.AspNetCore.StaticWebAssets.props",

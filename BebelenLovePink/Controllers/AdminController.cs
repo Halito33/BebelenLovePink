@@ -40,7 +40,7 @@ namespace BebelenLovePink.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado", "Descripcion", "Photo")] Inventario inventario )
+        public async Task<IActionResult> Create([Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado", "Descripcion", "PhotoUrl" , "PrecioOferta")] Inventario inventario )
         {
             inventario.Id = ObjectId.GenerateNewId().ToString();
             try
@@ -89,7 +89,7 @@ namespace BebelenLovePink.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado", "Descripcion")] Inventario inventario)
+        public async Task<IActionResult> Edit(string id, [Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado", "Descripcion", "PrecioOferta")] Inventario inventario)
         {
             
             if (id != inventario.Id)
@@ -128,10 +128,11 @@ namespace BebelenLovePink.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(string id, [Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado", "Descripcion")] Inventario inventario)
+        public async Task<IActionResult> Delete(string id, [Bind("Id", "Nombre", "Marca", "Precio", "Cantidad", "Estado", "Descripcion", "PrecioOferta")] Inventario inventario)
         {
             await _inventario.DeleteOneAsync(p => p.Id == id);
             return RedirectToAction(nameof(Index));
         }
+
     }
 }

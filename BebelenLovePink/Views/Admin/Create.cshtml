@@ -50,10 +50,19 @@
                                             <input asp-for="Cantidad" class="form-control" autocomplete="off" />
                                             <span asp-validation-for="Cantidad" class="text-danger"></span>
                                         </div>
-                                        <div>
-                                            <label asp-for="Estado"></label>
-                                            <input asp-for="Estado" class="form-control" autocomplete="off" />
+                                        <div style="padding-bottom:2px; padding-top:2px">
+                                            <label asp-for="Estado"></label> <br />
+                                            <select asp-for="Estado">
+                                                <option value="">Por favor seleccione un estado</option>
+                                                <option value="Normal">Sin Oferta</option>
+                                                <option value="Oferta">Oferta</option>
+                                            </select>
                                             <span asp-validation-for="Estado" class="text-danger"></span>
+                                        </div>
+                                        <div>
+                                            <label asp-for="PrecioOferta">Precio Oferta en caso de Estado Oferta</label>
+                                            <input asp-for="PrecioOferta" class="form-control" autocomplete="off" />
+                                            <span asp-validation-for="PrecioOferta" class="text-danger"></span>
                                         </div>
                                         <div>
                                             <label asp-for="Descripcion"></label>

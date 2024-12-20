@@ -30,5 +30,8 @@ namespace BebelenLovePink.Models
 
         [BsonElement("precio")]
         public int Precio { get; set; } = 0!;
+
+        [BsonElement("precioOferta")]
+        public int PrecioOferta { get; set;}
     }
 }
